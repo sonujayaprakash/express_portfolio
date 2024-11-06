@@ -1,0 +1,204 @@
+html{
+    scroll-behavior: smooth;
+}
+.body{
+    overflow-x: hidden;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    padding: 8px;
+    height: 50px;
+    width: 100%;
+    display: inline-flex;
+    gap: 30px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.items_1{
+    margin-left: 60%;
+    color: black;
+    text-decoration-line: none;
+}
+.items_2{
+    color: black;
+    text-decoration-line: none;
+}
+.items_3{
+    color: black;
+    text-decoration-line: none;
+}
+.content{
+    display: block;
+    float: left;
+    margin-left: 250px;
+    margin-top: 50px;
+    padding: 30px;
+    gap: 30px;
+    overflow-x: hidden;
+}
+.me{
+    padding: 30px;
+    float: left;
+    width: 400px;
+    height: auto;
+    border-radius: 500px;
+}
+.main_text{
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p1{
+    margin-bottom: 0;
+    margin-left: 40px;
+    font-size: 1.6rem;
+    color: rgb(26, 26, 26);
+}
+.p2{
+    float: left;
+    font-size: 2.6rem;
+    color: rgb(55, 54, 54);
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.heading{
+    margin-top: 0;
+    margin-left: 30px;
+    margin-bottom: 0;
+    float: left;
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contactme{
+    margin-top: 20px;
+    margin-left: 140px;
+    width: 150px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image:linear-gradient(to right,rgb(128, 119, 119),rgb(129, 218, 218)) ;
+    border: none;
+    border-radius: 20px;
+}
+.cont_me{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-line: none;
+}
+.about{
+    overflow-x: hidden;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 700px;
+}
+.p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+/*animation*/
+@keyframes About {
+    from {background-color: rgb(255, 255, 255);}
+    to {background-color: rgb(129, 218, 218);}
+    }
+.about:hover{
+    background-color: rgb(255, 255, 255);
+    animation-name: About;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    background-color: rgb(129, 218, 218);
+}
+.me2{
+    float: right;
+    width: 400px;
+    height: 500px;
+    margin-right: 200px;
+    margin-left: 60px;
+    border-radius: 20px;
+    margin-top: 90px;
+}
+.heading1{
+    margin-bottom: 40px;
+    height: 70px;
+    display: block;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head{
+    margin-top: 90px;
+    margin-left: 200px;
+    float: left;
+    width:500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.para{
+    width: 500px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+#service{
+    float: left;
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to bottom,rgb(129, 218, 218),rgb(255, 255, 255)) ;
+}
+.set{
+    display: inline-flex;
+}
+.set1{
+    margin-left: 75px;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    box-sizing: border-box;
+    border: .01rem solid black;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contact{
+    float: left;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+.set2{
+    text-align: center;
+    margin-top: 20px;
+}
+#i2{
+    font-size: 25px;
+    color: black;
+}
+hr{
+    height: 2px;
+    border-width: 0;
+    color: black;
+    background-color: black;
+}
